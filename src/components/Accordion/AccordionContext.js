@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
 
-const AccordionContext = React.createContext();
+const AccordionContext = createContext();
 
 export default AccordionContext;

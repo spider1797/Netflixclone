@@ -3,9 +3,9 @@ import "./FooterStyles.css";
 
 function FooterLink({ children, ...restProps }) {
   return (
-    <a href="#" className="footer-link" {...restProps}>
+    <button type="button" className="footer-link" {...restProps}>
       {children}
-    </a>
+    </button>
   );
 }
 
